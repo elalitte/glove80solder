@@ -1,4 +1,5 @@
 # Glove80 soldered or not soldered, that is the question
+![Half soldered glove80 keyboard part]([URL or file path](https://i.postimg.cc/6qfwx3tM/right-half-soldered.png))
 ## Why would I like to solder the switches when there is already a soldered version ?
 I've been looking for a while for the right keyboard for me.
 
