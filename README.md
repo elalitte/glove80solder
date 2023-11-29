@@ -52,11 +52,12 @@ If you pull too hard you might damage them.
 
 ![Just opened keyboard part](./images/opened_with_FCC.png)
 
-The right way to do it is to return the top part upside down wothout pulling on the FCC cables :
+The right way to do it is to return the top part upside down without pulling on the FCC cables :
 
 ![Half soldered glove80 keyboard part](./images/half_FCC_out.png)
 
 Then you can pull the adhesive tape and access the FCC connector.
+You can see on the photo the two opened connectors on the right and two closed ones with cables on the left.
 Just open it and pull the cable out.
 
 ![FCC connectors](./images/right_top_and_bottom.png)
@@ -94,12 +95,16 @@ One you have all your switches in place, the soldering is quite easy.
 
 ![Zoom on solders](./images/zoomed_soldered.png)
 
-The only tricky part is for the edge ones which are near the plastic parts that maintain the PCB in place.
+One tricky part is for the edge ones which are near the plastic parts that maintain the PCB in place.
 These are the most on the botom on the photo.
 
 As long as you will apply high temperature next to the plastic, it might melt a bit.
 
 My advice for this is to try to go quickly for thoses pins not to apply too much heat.
+
+Another tricky part is for the pins close to the FCC connectors. If they are far out from the PCB, they might scratch the FCC cable when it is in place.
+
+You might want to clip them to avoid contact before soldering, or cut a bit with a plier before or after soldering.
 
 When all the soldering is done, you're ready to put back all the pieces together.
 
