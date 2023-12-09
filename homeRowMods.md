@@ -1,3 +1,4 @@
+# Glove80, using Sunaku's home row mods from scratch
 When I got my glove80, I knew I would want to try home row mods (HRM) with it, but I was wondering how to tweak it to adjust to my needs and typing style so I don't have too much unintended activations during typing.
 
 # Finding information and the best solution
