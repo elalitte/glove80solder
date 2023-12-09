@@ -340,7 +340,7 @@ For me, I want the A letter when the key is tapped, and Left Alt when hold. Suna
 
 Then the keycode we want to send is &homey_left RALT A (as long as the qwerty code for this key is A, even if it is Q for my azerty keyboard, and I prefer RALT as LALT as long as RALT have special behavior on some os)
 
-![fullKeyCode](./images/fullCode.png)
+![fullKeyCode](./images/fullKeyCode.png)
 
 You'll have to do the same for every key of the home row where your fingers are at rest.
 
@@ -354,7 +354,7 @@ You can do the same for the right part.
 
 But I had a problem to find the right character for the azerty version of the M character which is , in qwerty. Normally you can find this code on your actual config, for me it was SEMI, thus the complete code is &homey_right RALT SEMI.
 
-You can find this information by hovering a key in a configuration that works for you.
+You can find this information by hovering a key in a configuration that works for you (See the (SEMI) here that points to m on french azerty keyboard).
 
 ![keyCode](./images/keyCode.png)
 
@@ -362,6 +362,10 @@ You can find this information by hovering a key in a configuration that works fo
 You're all set and just have to build your firmware and apply it to BOTH parts of your keyboard.
 
 ## Enjoy !
-If you are like me and already tested a HRM raw version without tweaking, you might be as amazed as me to see that you won't get any unintended activations at all. Sunaku did really an incredible job with this configuration.
+If you are like me and already tested a HRM raw version without tweaking, you might be as amazed as me to see that you won't get any unintended activations at all. 
+
+Sunaku did really an incredible job with this configuration.
+
+Big thanks to him and Miryoku for making this happen !
 
 
