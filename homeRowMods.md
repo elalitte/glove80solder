@@ -320,9 +320,11 @@ If you are in azerty like me, you'll have to link Left Alt with the Q letter (A 
 ### Link the behavior
 To do so, you'll first have to link the behavior, then the key.
 
-![keyBehavior](./images/keyBehavior.png)
+![keyRecap](./images/keyRecap.png)
 
 Clicking on the behavior part of the key makes you chose the behavior. 
+
+![keyBehavior](./images/keyBehavior.png)
 
 By default most of the keys are using &KP behavior, the simple Key Pressed behavior. 
 
