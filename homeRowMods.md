@@ -307,18 +307,27 @@ behaviors {
 
 Everything is well explained in Sunaku's page, and you should read it carefully, but if you want to try it quickly, you can just copy this part in your the "Custom defined behavior" part of your configuration.
 
-![CustomDefinedBehaviorPart](./images/customDefinedBehaviors.png)
-
 It should look something like so :
-IMAGE
+![CustomDefinedBehaviorPart](./images/customDefinedBehaviors.png)
 
 ## Apply the HRM to the selected keys
 Now that all the custom behaviors are in place, you'll have to link them with your keys.
+
 Imagine you want to use a AGCS HRM configuration (if you don't know what this means, you should read [this](https://precondition.github.io/home-row-mods#home-row-mods-order))
+
 If you are in azerty like me, you'll have to link Left Alt with the Q letter (A in Qwerty)
+
 ### Link the behavior
 To do so, you'll first have to link the behavior, then the key.
-Clicking on the behavior part of the key makes you chose the behavior. By default most of the keys are using &KP behavior, the simple Key Pressed behavior. But you'll have to change it to "Custom" to be able to use the custom behaviors we defined earlier. 
+
+![keyBehavior](./images/keyBehavior.png)
+
+Clicking on the behavior part of the key makes you chose the behavior. 
+
+By default most of the keys are using &KP behavior, the simple Key Pressed behavior. 
+
+But you'll have to change it to "Custom" to be able to use the custom behaviors we defined earlier. 
+
 ### Link the keycodes
 As long as your key now accepts custom behavior, you have to tell the wanted behavior and which keycodes are linked to this behavior.
 For me, I want the A letter when the key is tapped, and Left Alt when hold. Sunaku's behavior for HRM is &homey and left and right for the left and right parts.
