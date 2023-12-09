@@ -22,12 +22,13 @@ When all seems fine in your editor, you'll have to send the configuration to you
 
 # Dealing with Sunaku's home row mods part
 If you just want the HRM part of Sunaku, but not all the Miryoku's stuff along with it, you'll just have to follow these steps :
-1- Copy [the HRM part](https://sunaku.github.io/home-row-mods.html#snippet) of Sunaku's configuration,
-2- Paste it in the "Custom defined behavior" part of your config,
-3- Link the home row keys to the custom definitions of added configuration,
-4- Build your new firmware,
-5- Apply it to BOTH parts of your keyboard,
-6- Enjoy typing with home row mod
+
+1. Copy [the HRM part](https://sunaku.github.io/home-row-mods.html#snippet) of Sunaku's configuration,
+2. Paste it in the "Custom defined behavior" part of your config,
+3. Link the home row keys to the custom definitions of added configuration,
+4. Build your new firmware,
+5. Apply it to BOTH parts of your keyboard,
+6. Enjoy typing with home row mod
 
 # Detailed steps
 ## Copy the HRM part of Sunaku's configuration and paste it
