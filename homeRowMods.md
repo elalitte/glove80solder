@@ -307,7 +307,8 @@ behaviors {
 
 Everything is well explained in Sunaku's page, and you should read it carefully, but if you want to try it quickly, you can just copy this part in your the "Custom defined behavior" part of your configuration.
 
-It should look something like so :
+It should look something like this :
+
 ![CustomDefinedBehaviorPart](./images/customDefinedBehaviors.png)
 
 ## Apply the HRM to the selected keys
@@ -328,7 +329,9 @@ Clicking on the behavior part of the key makes you chose the behavior.
 
 By default most of the keys are using &KP behavior, the simple Key Pressed behavior. 
 
-But you'll have to change it to "Custom" to be able to use the custom behaviors we defined earlier. 
+But you'll have to change it to "Custom" to be able to use the custom behaviors we defined earlier.
+
+![customKey](./images/customKey.png)
 
 ### Link the keycodes
 As long as your key now accepts custom behavior, you have to tell the wanted behavior and which keycodes are linked to this behavior.
