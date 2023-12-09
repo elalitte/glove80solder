@@ -335,12 +335,28 @@ But you'll have to change it to "Custom" to be able to use the custom behaviors 
 
 ### Link the keycodes
 As long as your key now accepts custom behavior, you have to tell the wanted behavior and which keycodes are linked to this behavior.
+
 For me, I want the A letter when the key is tapped, and Left Alt when hold. Sunaku's behavior for HRM is &homey and left and right for the left and right parts.
+
 Then the keycode we want to send is &homey_left RALT A (as long as the qwerty code for this key is A, even if it is Q for my azerty keyboard, and I prefer RALT as LALT as long as RALT have special behavior on some os)
+
+![fullKeyCode](./images/fullCode.png)
+
 You'll have to do the same for every key of the home row where your fingers are at rest.
-We'll then have &homey_left RGUI S on the S key, &homey_left RCTRL D on the D key, but for the index keys, you can stil use &homey_left, but Sunaku made a special behavior &shift_left for index keys. Thus the code for the F key is preferably &shift_left LSHFT F.
+
+We'll then have &homey_left RGUI S on the S key, &homey_left RCTRL D on the D key, but for the index keys, you can stil use &homey_left, but Sunaku made a special behavior &shift_left for index keys. 
+
+Thus the code for the F key is preferably &shift_left LSHFT F.
+
 You can do the same for the right part.
-&shift_right RSHFT J, &homey_right RCTRL K, &homey_right RGUI L. But I had a problem to find the right character for the azerty version of the M character which is , in qwerty. Normally you can find this code on your actual config, for me it was SEMI, thus the complete code is &homey_right RALT SEMI.
+
+&shift_right RSHFT J, &homey_right RCTRL K, &homey_right RGUI L. 
+
+But I had a problem to find the right character for the azerty version of the M character which is , in qwerty. Normally you can find this code on your actual config, for me it was SEMI, thus the complete code is &homey_right RALT SEMI.
+
+You can find this information by hovering a key in a configuration that works for you.
+
+![keyCode](./images/keyCode.png)
 
 ## Build and apply
 You're all set and just have to build your firmware and apply it to BOTH parts of your keyboard.
