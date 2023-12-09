@@ -21,7 +21,7 @@ When all seems fine in your editor, you'll have to send the configuration to you
 ![Basic setup](./images/basic.png)
 
 # Dealing with Sunaku's home row mods part
-If you just want the HRM part of Sunaku, but not all the Miryoku's stuff along with it, you'll just have to follow these steps :
+If you just want the HRM part of Sunaku, but not all the Miryoku's stuff along with it, you'll just have to follow these steps (which are detailed just after) :
 
 1. Copy [the HRM part](https://sunaku.github.io/home-row-mods.html#snippet) of Sunaku's configuration,
 2. Paste it in the "Custom defined behavior" part of your config,
@@ -32,7 +32,7 @@ If you just want the HRM part of Sunaku, but not all the Miryoku's stuff along w
 
 # Detailed steps
 ## Copy the HRM part of Sunaku's configuration and paste it
-As pointed before, Sunaku made a great job pointing to the HRM part of his config. I put it here as well :
+As pointed before, Sunaku made a great job pointing to the HRM part of his full config. I put it here as well :
 
 ```
 //////////////////////////////////////////////////////////////////////
@@ -306,6 +306,9 @@ behaviors {
 ```
 
 Everything is well explained in Sunaku's page, and you should read it carefully, but if you want to try it quickly, you can just copy this part in your the "Custom defined behavior" part of your configuration.
+
+![CustomDefinedBehaviorPart](./images/customDefinedBehaviors.png)
+
 It should look something like so :
 IMAGE
 
