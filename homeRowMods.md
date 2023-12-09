@@ -4,15 +4,21 @@ When I got my glove80, I knew I would want to try home row mods (HRM) with it, b
 
 # Finding information and the best solution
 As long as I was looking for home row mods tips, I first found [this page](https://precondition.github.io/home-row-mods) from precondition which is a fantastic mine of information on the basics of home row mods. The only problem is that all the tweakings done are on QMK and not ZMQ as on glove80.
+
 Then I tried [the ZMQ official doc]()https://zmk.dev/docs/behaviors/hold-tap which is quite nice, but it still seemed complex to me to find the sweet spot with all those possibilities.
 I then found [Sunaku's page](https://sunaku.github.io/home-row-mods.html) which talks about HRM, but have a [special part dedicated to ZMQ](https://sunaku.github.io/home-row-mods.html#porting-to-zmk) as long as Sunaku is also using a glove80 for a while. He also adds very useful and valuable information about his journey with trying to find the sweet spot.
 
 # Ok, But what to do then to get it on my favourite glove ?
-When you are starting from zero with the glove80, it can be difficult for you to understand how everything works together and how to tweak your keyboard. This page is trying to show you step by step the right way to put HRM on any actual keymap configuration.
+When you are starting from zero with the glove80, it can be difficult for you to understand how everything works together and how to tweak your keyboard. 
+
+This page is trying to show you step by step the right way to put HRM on any actual keymap configuration.
 
 # First, put your prefered configuration on your keyboard
 You can go on the web editor to find the right configuration for you. As long that I type on french azerty on MacOs, I had to find the right keymap setting on the interface, but this is well documented in [the official documentation](https://www.moergo.com/files/layout-editor-user-guide.pdf).
+
 When all seems fine in your editor, you'll have to send the configuration to your glove80, but this is also well documented in the docs.
+
+![Basic setup](./images/basic.png)
 
 # Dealing with Sunaku's home row mods part
 If you just want the HRM part of Sunaku, but not all the Miryoku's stuff along with it, you'll just have to follow these steps :
