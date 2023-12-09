@@ -361,6 +361,8 @@ You can find this information by hovering a key in a configuration that works fo
 ## Build and apply
 You're all set and just have to build your firmware and apply it to BOTH parts of your keyboard.
 
+![HRM](./images/finalKeyboard.png)
+
 ## Enjoy !
 If you are like me and already tested a HRM raw version without tweaking, you might be as amazed as me to see that you won't get any unintended activations at all. 
 
